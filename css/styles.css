@@ -1,0 +1,40 @@
+.content-wrapper {
+    display: flex;    
+    padding: 30px;
+}
+
+.article-container {
+    padding: 30px;
+}
+
+.article-txt {
+    
+}
+
+.person-container {
+    box-shadow: 3px 3px 10px #8f8f8f;
+}
+
+.img-container {   
+    /* display: flex; 
+    flex-direction: row; */
+    /* position: relative; */
+    height: 550px;
+    padding: 0px 25px 25px 25px;    
+}
+
+#image {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;   
+    /* position: absolute; */    
+    max-height: 80%;
+}
+
+#img-caption { 
+    align-items: center;
+    text-align: center;  
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px
+}
